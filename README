@@ -1,5 +1,6 @@
 =========================== composerCLI ===========================
-CLI tool for triggering DAG runs through API
+CLI tool for triggering DAG runs in Cloud Composer using a local CLI.
+The tool can be used by for example Windows PowerShell or Cloud SDK.
 
 -------------------------------------------------------------------------------
 ! Make sure that the requirements are installed !
