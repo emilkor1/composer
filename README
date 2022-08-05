@@ -1,13 +1,18 @@
 =========================== composerCLI ===========================
 CLI tool for triggering DAG runs in Cloud Composer using a local CLI.
 The tool can be used by for example Windows PowerShell or Cloud SDK.
+GCP will authenticate the user and get the Airflow DAG pipeline URL automatically.
+
+If a Authentication JSON file is not present, the CLI will open Google Cloud and
+verify your user before creating the JSON file. The JSON file will be used when
+triggering the Airflow DAG.
 
 -------------------------------------------------------------------------------
 ! Make sure that the requirements are installed !
 -------------------------------------------------------------------------------
-To use the CLI, do the following:
+To use the Python CLI, do the following:
 
- git clone git://github.com/emilkor1/composerCLI.git
- cd composerCLI
+ git clone https://github.com/emilkor1/composerCLI.git
+ cd composerCLI/python/
  python pyComposer.py --env <ENVIRONMENT> --location <LOCATION> --dag_id <DAG_ID>
 ===============================================================================
