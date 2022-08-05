@@ -2,6 +2,8 @@
 CLI tool for triggering DAG runs through API
 
 -------------------------------------------------------------------------------
+! Make sure that the requirements are installed !
+-------------------------------------------------------------------------------
 To use the CLI, do the following:
 
  git clone git://github.com/emilkor1/composerCLI.git
