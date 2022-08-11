@@ -1,4 +1,4 @@
-=========================== composerCLI ===========================
+=========================== composer ===========================
 Tool for triggering Airflow DAG jobs in Cloud Composer using a local CLI.
 The tool can be used by for example Windows PowerShell or Cloud SDK.
 GCP will authenticate the user and get the pipeline URL automatically.
