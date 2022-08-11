@@ -8,7 +8,7 @@ The CLI will open Google Cloud and verify your GCP user before triggering any DA
 -------------------------------------------------------------------------------
 To use the Python CLI, do the following:
 
- git clone https://github.com/emilkor1/composerCLI.git
- cd composerCLI/python/
+ git clone https://github.com/emilkor1/composer.git
+ cd composer/python/
  python pyComposer.py --env <ENVIRONMENT> --location <LOCATION> --dag_id <DAG_ID>
 ===============================================================================
